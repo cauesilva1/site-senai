@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login/login.css">
+    <script src="login/login.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
             <div>
                 <img src="/imgs/My-project-1.png" alt="">
             </div>
-            <form action="/index/index.html" method="post">
+            <form name="form" method="get">
                 <input type="text" name="nome" placeholder="nome de usuário">
                 <input type="password" name="senha" placeholder="senha do usuário">
-                <button type="submit" name="entrar" value="entrar">Entrar</button>
+                <button type="submit" name="entrar" value="entrar" onclick="enviar()">Entrar</button>
             </form>
             <p>Ainda nao tem uma conta?<a href="#">criar conta</a></p>
         </div>
