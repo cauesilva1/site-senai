@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     font-family: monstserrat;
     background-color: #131313;
@@ -55,6 +59,8 @@ a:hover {
     border: 1px solid #ffffff;
     transition: .5s;
     border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 100px #b3aeaed0;
 }
 
 .logo img {
@@ -87,8 +93,43 @@ a:hover {
     border-radius: 10px;
 }
 
-.column img:hover {
+/* .column img:hover {
     opacity: 1;
+    transition: 0.5s;
+    box-shadow: 0 0 100px #b3aeaed0;
+} */
+
+.jogo1:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #49d2d6d0;
+}
+.jogo2:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #eaedf5d0;
+}
+.jogo3:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #d16c0ed0;
+}
+.jogo4:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #ffffffd0;
+}
+.jogo5:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #001dbed0;
+}
+.jogo6:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #1e2992d0;
+}
+.jogo7:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #ffffffd0;
+}
+.jogo8:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 100px #c01a1ad0;
 }
 
 .column button{
@@ -135,7 +176,7 @@ footer h1{
 .imgf img{
     height: 40%;
     width: 40%;
-    margin-left: 50%;
+    margin-left: 55%;
     margin-top: 10%;
 }
 
